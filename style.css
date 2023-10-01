@@ -1,0 +1,95 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+.textoColorido {
+    color:black;
+}
+
+.conteudo {
+    border-bottom-width: 10vw;
+    border-bottom: 3px solid #339CFF;
+    width: 100%;
+  }
+
+
+a {
+    color: #339CFF;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+a:hover {
+    opacity: 0.7;
+  }
+
+ nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    height: 12vh;
+  }
+
+ 
+
+@media (min-width: 1000px){
+    .titulo {
+        display: inline-block;
+        color: #1C70B9;
+        font-size:40px;
+        padding-right: 600px;
+        
+      }
+
+      .nav-list {
+        font-size: 20px;
+        list-style: none;
+        color:#339CFF;
+        display: flex;
+      }
+    
+     .nav-list li {
+        letter-spacing: 3px;
+        color:#339CFF;
+        margin-left: 32px;
+      }
+}
+
+@media (min-width: 768px) and (max-width: 999px){
+    .titulo{
+        color: #1C70B9;
+        text-align: center; 
+        padding-left: 200px;
+        font-size: 50px;
+    }
+    
+     .nav-list {
+       align-items: center;
+       padding-right: 300px;
+       margin-top: 300px;
+       display: flex;
+       font-size: 20px;
+       list-style: none;
+       color:#339CFF;
+       display: flex;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+        height: 12vh;
+      }
+    
+}
+
+    
