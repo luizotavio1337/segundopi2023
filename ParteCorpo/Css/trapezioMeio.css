@@ -1,0 +1,228 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+.textoColorido {
+    color:black;
+}
+
+.conteudo {
+    border-bottom-width: 10vw;
+    border-bottom: 3px solid #339CFF;
+    width: 100%;
+  }
+
+
+a {
+    color: #339CFF;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+a:hover {
+    opacity: 0.7;
+  }
+
+ nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    height: 12vh;
+  }
+
+@media (min-width: 365px) and (max-width: 413px){
+  .titulo{
+    color: #1C70B9;
+    display: flex;
+    padding-right: 500px; 
+    padding-left: 500px; 
+    font-size: 30px;
+}
+
+ .nav-list {
+  justify-content: space-around;
+   padding-right: 500px; 
+   padding-left: 500px; 
+   margin-top: 10px;
+   align-items: center;
+   font-size: 20px;
+   color:#339CFF;
+   display: grid;
+  }
+
+  nav {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    height: 12vh;
+  }
+  
+  .body-map__body {
+    margin-top: 50px;
+    display: flex;
+    padding-left: 55px;
+    align-items: center;
+    margin-top: 100px;
+    height: 450px;
+    max-width: 50%;
+  }
+  
+  .body-map__model {
+    color: #000;
+  }
+  
+  .body-map__muscle {
+    color: #ebebeb;
+  }
+  
+  .body-map__muscle:hover {
+    color: #B0E0E6;
+    cursor: pointer;
+  }
+
+}
+
+@media (min-width: 414px) and (max-width: 896px){
+  .titulo{
+    color: #1C70B9;
+    display: flex;
+    padding-right: 515px; 
+    padding-left: 500px; 
+    font-size: 35px;
+}
+
+ .nav-list {
+  justify-content: space-around;
+   padding-right: 500px; 
+   padding-left: 500px; 
+   margin-top: 10px;
+   align-items: center;
+   font-size: 20px;
+   color:#339CFF;
+   display: grid;
+  }
+
+  nav {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    height: 12vh;
+  }
+  
+  .body-map__body {
+    margin-top: 50px;
+    display: flex;
+    padding-left: 25px;
+    align-items: center;
+    margin-top: 100px;
+    height: 600px;
+    max-width: 100%;
+  }
+  
+  .body-map__model {
+    color: #000;
+  }
+  
+  .body-map__muscle {
+    color: #ebebeb;
+  }
+  
+  .body-map__muscle:hover {
+    color: #B0E0E6;
+    cursor: pointer;
+  }
+
+}
+
+@media (min-width: 1000px){
+    .titulo {
+        display: inline-block;
+        color: #1C70B9;
+        font-size:40px;
+        padding-right: 600px;
+        
+      }
+
+      .nav-list {
+        font-size: 20px;
+        list-style: none;
+        color:#339CFF;
+        display: flex;
+      }
+    
+     .nav-list li {
+        letter-spacing: 3px;
+        color:#339CFF;
+        margin-left: 32px;
+      }
+
+      .body-map {
+        padding: 0 0 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .body-map__container {
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        flex-wrap: wrap
+      }
+      
+      .body-map__body {
+        margin-top: 50px;
+        display: flex;
+        padding-left: 650px;
+        align-items: center;
+        height: 1000px;
+        max-width: 50%;
+      }
+      
+      .body-map__model {
+        color: #000;
+      }
+      
+      .body-map__muscle {
+        color: #ebebeb;
+      }
+      
+      .body-map__muscle:hover {
+        color: #B0E0E6;
+        cursor: pointer;
+      }
+}
+
+.tituloMusculo{
+  text-align: center;
+  margin-top: 70px;
+  font-size: 30px;
+}
+
+.nomeExercicio{
+  text-align: center;
+  margin-top: 70px;
+  font-size: 20px;
+}
+
+.imgtpz{
+  padding-left: 770px;
+
+}
+
+.imgtpzm{
+  padding-left: 750px;
+}
+
+
+
